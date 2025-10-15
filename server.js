@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 3002;
 app.use(cors({
   origin: [
     "http://localhost:5174",                // local dev
-    "https://reva-ai-nine.vercel.app"      // your Vercel frontend
+    "https://reva-ai-k7nm.onrender.com"      // your Vercel frontend
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
