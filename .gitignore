@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+
+# Uploads (optional: if you don’t want uploaded files in git)
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
